@@ -1,0 +1,88 @@
+/*
+COLORS
+main    #231F20
+dark    #161314
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    /*font-size: 62.5%;*/
+}
+
+body {
+    background-color: #231F20;
+    padding: 20px;
+
+    color: #EFE6DD;
+    font-family: 'Work Sans', sans-serif;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.pane {
+    background-color: #161314;
+    border-radius: 10px;
+}
+
+.textarea {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+
+    color: #EFE6DD;
+    font-size: 2rem;
+}
+
+.code-textarea {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.note-textarea {
+    font-family: 'Work sans', sans-serif;
+}
+
+.tool {
+    background-color: #7EBDC2;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+    color: #161314;
+    font-size: 3rem;
+}
+
+.tool:hover {
+    background-color: #161314;
+
+    color: #7EBDC2;
+
+    cursor: pointer;
+}
+
+.tool-pane {
+    display: flex;
+    gap: 3rem;
+
+
+    font-size: 5rem;
+}
+
+.editor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 50rem;
+    margin-top: 3rem;
+
+    column-gap: 3rem;
+}
+
+#new-notebook {
+    font-size: 30px;
+    color: white;
+    background-color: purple;
+}
