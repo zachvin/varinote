@@ -19,19 +19,28 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+
+/*
+REUSABLE
+*/
+
 button {
-    background: none;
     border: none;
 }
 
-.pane {
-    background-color: #161314;
-    border-radius: 10px;
+
+/*
+TEXT AREAS
+*/
+
+.main {
+    display: flex;
 }
 
 .textarea {
     background-color: transparent;
-    border: none;
+    border: 2px solid #EFE6DD;
+    border-radius: 10px;
     height: 100%;
     width: 100%;
 
@@ -47,39 +56,16 @@ button {
     font-family: 'Work sans', sans-serif;
 }
 
-.tool {
-    background-color: #7EBDC2;
-    border-radius: 10px;
-    padding: 10px 20px;
-
-    color: #161314;
-    font-size: 3rem;
-}
-
-.tool:hover {
-    background-color: #161314;
-
-    color: #7EBDC2;
-
-    cursor: pointer;
-}
-
-.tool-pane {
-    display: flex;
-    gap: 3rem;
-
-
-    font-size: 5rem;
-}
-
 .editor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     min-height: 50rem;
     margin-top: 3rem;
-
-    column-gap: 3rem;
 }
+
+
+/*
+NOTEBOOK SELECTOR
+*/
 
 #new-notebook {
     font-size: 30px;
